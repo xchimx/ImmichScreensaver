@@ -1,0 +1,27 @@
+# --- Secrets / local configuration ---
+# Contains the real Immich API key, must NOT be committed.
+immich_config.ini
+
+# --- Lazarus / FPC build artifacts ---
+lib/
+backup/
+*.exe
+*.scr
+*.scr.exe
+*.o
+*.ppu
+*.obj
+*.a
+*.or
+*.compiled
+*.dbg
+
+# Lazarus session files (per user)
+*.lps
+
+# --- Windows / misc ---
+*.rar
+*.zip
+*.lnk
+Thumbs.db
+desktop.ini

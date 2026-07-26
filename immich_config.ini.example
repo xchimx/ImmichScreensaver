@@ -1,0 +1,29 @@
+[Immich]
+; URL of your Immich installation (no trailing slash)
+Server=https://immich.example.net
+; Immich API key (Account Settings -> API Keys)
+APIKey=YOUR_API_KEY_HERE
+; Time between images in milliseconds (8000 = 8 seconds)
+Interval=8000
+
+[Settings]
+; Random order (0 = off, 1 = on)
+Random=1
+; Load full resolution instead of the preview (0 = preview, 1 = original)
+UseOriginal=0
+; Display mode: cover (fill/crop), fit (letterbox), stretch (distort)
+FitMode=cover
+; Smooth crossfade between images (0 = off, 1 = on)
+Fade=1
+; Crossfade duration in milliseconds (100..5000)
+FadeDuration=450
+; Show clock and date (0 = off, 1 = on)
+Clock=1
+; Clock position, horizontal: left or right
+ClockHAlign=right
+; Clock position, vertical: top or bottom
+ClockVAlign=bottom
+; Selected album ids, comma separated. Empty = whole library.
+Albums=
+; Selected monitor indices (zero based), comma separated. Empty = all monitors.
+Monitors=

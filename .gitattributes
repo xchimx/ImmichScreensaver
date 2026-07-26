@@ -1,0 +1,17 @@
+# Normalize text files, keep binaries intact
+* text=auto
+
+*.pas   text
+*.lpr   text
+*.lpi   text
+*.lfm   text
+*.md    text
+*.ini   text
+*.example text
+LICENSE text
+
+*.dll   binary
+*.ico   binary
+*.res   binary
+*.scr   binary
+*.exe   binary
